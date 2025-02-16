@@ -26,14 +26,14 @@ Deployment:
 
 # Installation & Setup
 1️ Clone the Repository
-  -git clone https://github.com/your-username/flipkartz.git
+  -git clone https://github.com/basum/flipkartz.git
   -cd flipkartz
 2️ Configure MySQL Database
   CREATE DATABASE flipkartz_db;
   # application.properties
-  spring.datasource.url=jdbc:mysql://localhost:3306/flipkartz_db
-  spring.datasource.username=your_mysql_user
-  spring.datasource.password=your_mysql_password
+  spring.datasource.url=jdbc:mysql://localhost:3307/Flipkart
+  spring.datasource.username=flip_user
+  spring.datasource.password=flipuser
   # Running with docker
    docker build -t flipkartz .
  #  Run MySQL Container
